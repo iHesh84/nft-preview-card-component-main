@@ -42,7 +42,6 @@ body {
   place-content: center;
   height: 100vh;
   font-size: var(--fs-regular);
-
 }
 /*
     5. Improve media defaults
@@ -125,7 +124,6 @@ article {
   display: flex;
   justify-content: space-between;
   margin-right: 1.5rem;
-  
 }
 
 .card__price {
@@ -133,41 +131,44 @@ article {
 }
 
 .card__duration {
-    color: var(--clr-primary-softblue);
+  color: var(--clr-primary-softblue);
 }
 
 .card__duration::before {
-    content: url(/images/icon-clock.svg);
-    margin-right: 0.5rem;
+  content: url(/images/icon-clock.svg);
+  margin-right: 0.5rem;
 }
 
 hr {
-    height: 1px;
-    background-color: var(--clr-seconday-darkblue-line);
-    margin-right: 1rem;
-    border: none;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+  height: 1px;
+  background-color: var(--clr-seconday-darkblue-line);
+  margin-right: 1rem;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .flex-group-creator {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .creator__avatar {
-    height: 35px;
-    width: 35px;
-    margin-right: 1rem;
-    border: 1px white solid;
-    border-radius: 5rem;
+  height: 35px;
+  width: 35px;
+  margin-right: 1rem;
+  border: 1px white solid;
+  border-radius: 5rem;
 }
 
-
 .card__creator {
-    color: var(--clr-primary-softblue)
+  color: var(--clr-primary-softblue);
 }
 
 .creator {
-    color: var(--clr-seconday-white)
+  color: var(--clr-seconday-white);
+}
+
+.creator::before {
+  content: "\00a0";
 }
